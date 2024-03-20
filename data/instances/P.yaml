@@ -1,0 +1,9 @@
+polygon: P.plg
+interval: 0.1
+delta: 4
+R: [
+    [0,0],
+    [0,0],
+    [0,0],
+    [0,0],
+  ]

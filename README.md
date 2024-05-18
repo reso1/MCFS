@@ -1,7 +1,7 @@
 # MCFS
 This repository is the implementation of the unified version of Connected Fermat Spiral and the Multi-Robot Connected Fermat Spiral with its two optimizations from the following paper:
 
-*Jingtao Tang and Hang Ma. "Multi-Robot Connected Fermat Spiral Coverage." ICAPS 2024 (to appear). [[paper]](), [[simulation]](), [[project]]()*
+*Jingtao Tang and Hang Ma. "Multi-Robot Connected Fermat Spiral Coverage." ICAPS 2024 (to appear). [[paper]](https://arxiv.org/abs/2403.13311), [[simulation]](), [[project]]()*
 
 Please cite this paper if you use this code for the multi-robot coverage path planning problem.
 
@@ -37,7 +37,7 @@ python main.py [-h] [--aug AUG] [--ref REF] [--read_mmrtc_sol READ_MMRTC_SOL] [-
   -  stitching_tuple.py: the class of individual stitching tuple and the set $O$ of stitching tuples 
 - data/
   - instances: metadata of the MCPP instances
-  - polygons: the respective shapely polygons of the MCPP instances (for MCFS)
+  - polygons: the respective [shapely polygon](https://shapely.readthedocs.io/en/stable/reference/shapely.Polygon.html) objects of the MCPP instances (for MCFS)
   - rectilinearified: the rectilinearized grid approximations of the MCPP instances (for the two comparing baselines) 
   - solutions: MMRTC and MCPP solutions for MCFS w/ two optimizations of isograph augmentation and solution refinement
 
